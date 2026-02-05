@@ -15,11 +15,15 @@ import numpy as np
 
 # Power BI passes the dataset as a DataFrame named 'dataset'
 # For testing outside Power BI, uncomment the sample data below:
-# dataset = pd.DataFrame({
-#     'X': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-#     'Y': [2.3, 4.1, 5.8, 7.2, 9.1, 10.5, 12.3, 14.1, 15.8, 17.5],
-#     'Size': [100, 150, 200, 120, 180, 160, 140, 190, 170, 210]
-# })
+try:
+    dataset  # type: ignore  # noqa: F821
+except NameError:
+    # Sample data for local testing
+    dataset = pd.DataFrame({
+        'X': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        'Y': [2.3, 4.1, 5.8, 7.2, 9.1, 10.5, 12.3, 14.1, 15.8, 17.5],
+        'Size': [100, 150, 200, 120, 180, 160, 140, 190, 170, 210]
+    })
 
 # Create the plot
 fig, ax = plt.subplots(figsize=(10, 8))

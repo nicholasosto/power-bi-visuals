@@ -12,10 +12,14 @@ import pandas as pd
 
 # Power BI passes the dataset as a DataFrame named 'dataset'
 # For testing outside Power BI, uncomment the sample data below:
-# dataset = pd.DataFrame({
-#     'Category': ['A', 'B', 'C', 'D', 'E'],
-#     'Value': [23, 45, 56, 78, 32]
-# })
+try:
+    dataset  # type: ignore  # noqa: F821
+except NameError:
+    # Sample data for local testing
+    dataset = pd.DataFrame({
+        'Category': ['A', 'B', 'C', 'D', 'E'],
+        'Value': [23, 45, 56, 78, 32]
+    })
 
 # Create the plot
 fig, ax = plt.subplots(figsize=(10, 6))

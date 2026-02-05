@@ -13,10 +13,14 @@ import pandas as pd
 
 # Power BI passes the dataset as a DataFrame named 'dataset'
 # For testing outside Power BI, uncomment the sample data below:
-# dataset = pd.DataFrame({
-#     'Date': pd.date_range('2024-01-01', periods=10, freq='D'),
-#     'Value': [23, 45, 56, 48, 52, 61, 58, 67, 72, 68]
-# })
+try:
+    dataset  # type: ignore  # noqa: F821
+except NameError:
+    # Sample data for local testing
+    dataset = pd.DataFrame({
+        'Date': pd.date_range('2024-01-01', periods=10, freq='D'),
+        'Value': [23, 45, 56, 48, 52, 61, 58, 67, 72, 68]
+    })
 
 # Ensure Date column is datetime type
 dataset['Date'] = pd.to_datetime(dataset['Date'])

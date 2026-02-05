@@ -12,10 +12,14 @@ import pandas as pd
 # It contains the data you've added to the Values field in Power BI
 
 # For local testing, create sample data:
-# dataset = pd.DataFrame({
-#     'Column1': [...],
-#     'Column2': [...]
-# })
+try:
+    dataset  # type: ignore  # noqa: F821
+except NameError:
+    # Sample data for local testing - modify as needed
+    dataset = pd.DataFrame({
+        'Column1': [1, 2, 3, 4, 5],
+        'Column2': [10, 20, 30, 40, 50]
+    })
 
 # Print dataset info (useful for debugging)
 print("Dataset shape:", dataset.shape)
