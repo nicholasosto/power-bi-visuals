@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "PBIR - PTO Report",
+			"uri": "fabric:/workspaces/14fcb7ad-1cdd-41d3-a68d-d7778fc5d7ee/reports/2c163758-a8fb-450a-a697-ebaedc7c22ef"
 		}
 	],
 	"settings": {
