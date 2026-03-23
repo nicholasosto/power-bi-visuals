@@ -1,0 +1,216 @@
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#0F1419\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Overview",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.0,
+      "name": "b1c2d3e4f5a6b7c8d9e0",
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"ov01a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":4,\"z\":0,\"width\":400,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Invoice Review Dashboard\",\"textStyle\":{\"fontFamily\":\"DIN\",\"fontSize\":\"18px\",\"fontWeight\":\"bold\",\"color\":\"#E6EDF3\"}}],\"horizontalTextAlignment\":\"left\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 40,
+          "width": 400,
+          "x": 20,
+          "y": 4,
+          "z": 0
+        },
+        {
+          "config": "{\"name\":\"ov02a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":440,\"y\":10,\"z\":1,\"width\":300,\"height\":30,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Projector PSA  \\u00b7  Astrix Inc\",\"textStyle\":{\"fontFamily\":\"Segoe UI\",\"fontSize\":\"11px\",\"fontWeight\":\"normal\",\"color\":\"#6E7681\"}}],\"horizontalTextAlignment\":\"left\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 30,
+          "width": 300,
+          "x": 440,
+          "y": 10,
+          "z": 1
+        },
+        {
+          "config": "{\"name\":\"ov03a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":52,\"z\":100,\"width\":370,\"height\":38,\"tabOrder\":100}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Project Manager Display Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Manager Display Name\"},\"Name\":\"Portfolio - API Invoicing Review.Project Manager Display Name\",\"NativeReferenceName\":\"Project Manager\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Project Manager'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 38,
+          "width": 370,
+          "x": 20,
+          "y": 52,
+          "z": 100
+        },
+        {
+          "config": "{\"name\":\"ov05a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":400,\"y\":52,\"z\":102,\"width\":370,\"height\":38,\"tabOrder\":102}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.PO Status\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PO Status\"},\"Name\":\"Portfolio - API Invoicing Review.PO Status\",\"NativeReferenceName\":\"PO Status\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'PO Status'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 38,
+          "width": 370,
+          "x": 400,
+          "y": 52,
+          "z": 102
+        },
+        {
+          "config": "{\"name\":\"ov06a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":98,\"z\":200,\"width\":295,\"height\":104,\"tabOrder\":200}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Time Card Billing Adjusted Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"Invoice Review - Invoice Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Time Card Billing Adjusted Amount\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Time Card Billing Adjusted Amount)\",\"NativeReferenceName\":\"Total Invoiced\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#E6EDF3\"}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#8B949E\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Invoiced'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 295,
+          "x": 20,
+          "y": 98,
+          "z": 200
+        },
+        {
+          "config": "{\"name\":\"ov07a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":325,\"y\":98,\"z\":201,\"width\":295,\"height\":104,\"tabOrder\":201}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Portfolio - API Invoicing Review.Budgeted Billing Adjusted Revenue Remaining)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Budgeted Billing Adjusted Revenue Remaining\"}},\"Function\":0},\"Name\":\"Sum(Portfolio - API Invoicing Review.Budgeted Billing Adjusted Revenue Remaining)\",\"NativeReferenceName\":\"Remaining Budget\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#E6EDF3\"}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#8B949E\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Remaining Budget'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 295,
+          "x": 325,
+          "y": 98,
+          "z": 201
+        },
+        {
+          "config": "{\"name\":\"ov08a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":630,\"y\":98,\"z\":202,\"width\":295,\"height\":104,\"tabOrder\":202}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Invoice Review - Time Cards.Person Hours)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Invoice Review - Time Cards\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Person Hours\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Time Cards.Person Hours)\",\"NativeReferenceName\":\"Total Hours\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#E6EDF3\"}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#8B949E\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Hours'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 295,
+          "x": 630,
+          "y": 98,
+          "z": 202
+        },
+        {
+          "config": "{\"name\":\"ov09a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":935,\"y\":98,\"z\":203,\"width\":325,\"height\":104,\"tabOrder\":203}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Count Email)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"Invoice Review - Invoice Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Count Email\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Count Email)\",\"NativeReferenceName\":\"Email Follow-ups\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#F85149\"}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#8B949E\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Email Follow-ups'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 325,
+          "x": 935,
+          "y": 98,
+          "z": 203
+        },
+        {
+          "config": "{\"name\":\"ov10a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":212,\"z\":300,\"width\":905,\"height\":488,\"tabOrder\":300}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Project Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Primary Client Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Project Manager Display Name\"},{\"queryRef\":\"Invoice Review - Invoice Report.Invoice Number\"},{\"queryRef\":\"Sum(Portfolio - API Invoicing Review.Budgeted Billing Adjusted Revenue Remaining)\"},{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Time Card Billing Adjusted Amount)\"},{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Milestone Amount)\"},{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Count Email)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0},{\"Name\":\"i\",\"Entity\":\"Invoice Review - Invoice Report\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Name\"},\"Name\":\"Portfolio - API Invoicing Review.Project Name\",\"NativeReferenceName\":\"Project\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Primary Client Name\"},\"Name\":\"Portfolio - API Invoicing Review.Primary Client Name\",\"NativeReferenceName\":\"Client\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Manager Display Name\"},\"Name\":\"Portfolio - API Invoicing Review.Project Manager Display Name\",\"NativeReferenceName\":\"PM\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Invoice Number\"},\"Name\":\"Invoice Review - Invoice Report.Invoice Number\",\"NativeReferenceName\":\"Invoice #\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Budgeted Billing Adjusted Revenue Remaining\"}},\"Function\":0},\"Name\":\"Sum(Portfolio - API Invoicing Review.Budgeted Billing Adjusted Revenue Remaining)\",\"NativeReferenceName\":\"Budget Remaining\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Time Card Billing Adjusted Amount\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Time Card Billing Adjusted Amount)\",\"NativeReferenceName\":\"Invoiced\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Milestone Amount\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Milestone Amount)\",\"NativeReferenceName\":\"Milestones\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Count Email\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Count Email)\",\"NativeReferenceName\":\"Emails\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}},\"backColor\":{\"solid\":{\"color\":\"#161B22\"}}}}],\"values\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#E6EDF3\"}},\"backColor\":{\"solid\":{\"color\":\"#1B2028\"}}}},{\"properties\":{\"fontColor\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Count Email\"}},\"Function\":0}},\"Right\":{\"Literal\":{\"Value\":\"1L\"}}}},\"Value\":{\"Literal\":{\"Value\":\"'#F85149'\"}}}],\"Else\":{\"Literal\":{\"Value\":\"'#E6EDF3'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Invoice Review - Invoice Report.Count Email)\"}}],\"grid\":[{\"properties\":{\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridHorizontalColor\":{\"solid\":{\"color\":\"#2D333B\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Project Budget & Invoice Status'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 488,
+          "width": 905,
+          "x": 20,
+          "y": 212,
+          "z": 300
+        },
+        {
+          "config": "{\"name\":\"ov11a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":935,\"y\":212,\"z\":400,\"width\":325,\"height\":275,\"tabOrder\":400}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Invoice Review - Time Cards.Resource Display Name\"},{\"queryRef\":\"Invoice Review - Time Cards.Billing Status\"},{\"queryRef\":\"Sum(Invoice Review - Time Cards.Person Hours)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Invoice Review - Time Cards\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Resource Display Name\"},\"Name\":\"Invoice Review - Time Cards.Resource Display Name\",\"NativeReferenceName\":\"Name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Billing Status\"},\"Name\":\"Invoice Review - Time Cards.Billing Status\",\"NativeReferenceName\":\"Status\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Person Hours\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Time Cards.Person Hours)\",\"NativeReferenceName\":\"Hours\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#E6EDF3\"}}}}],\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"card\":[{\"properties\":{\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Timecard Alerts'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 275,
+          "width": 325,
+          "x": 935,
+          "y": 212,
+          "z": 400
+        },
+        {
+          "config": "{\"name\":\"ov12a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":935,\"y\":497,\"z\":500,\"width\":325,\"height\":203,\"tabOrder\":500}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Project Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Primary Client Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Client PO Number\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Name\"},\"Name\":\"Portfolio - API Invoicing Review.Project Name\",\"NativeReferenceName\":\"Project\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Primary Client Name\"},\"Name\":\"Portfolio - API Invoicing Review.Primary Client Name\",\"NativeReferenceName\":\"Client\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Client PO Number\"},\"Name\":\"Portfolio - API Invoicing Review.Client PO Number\",\"NativeReferenceName\":\"PO #\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#F85149\"}},\"backColor\":{\"solid\":{\"color\":\"#161B22\"}}}}],\"values\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#E6EDF3\"}},\"backColor\":{\"solid\":{\"color\":\"#1B2028\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'\\u26a0 Missing PO Numbers'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[{\"type\":\"Categorical\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PO Status\"}},\"Right\":{\"Literal\":{\"Value\":\"'GOOD'\"}}}}}}}]},\"isHiddenInViewMode\":true}]",
+          "height": 203,
+          "width": 325,
+          "x": 935,
+          "y": 497,
+          "z": 500
+        }
+      ],
+      "width": 1280.0
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#0F1419\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Invoice Email",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.0,
+      "name": "c2d3e4f5a6b7c8d9e0f1",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"id01a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":4,\"z\":0,\"width\":400,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Invoice Email\",\"textStyle\":{\"fontFamily\":\"DIN\",\"fontSize\":\"18px\",\"fontWeight\":\"bold\",\"color\":\"#E6EDF3\"}}],\"horizontalTextAlignment\":\"left\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 40,
+          "width": 400,
+          "x": 20,
+          "y": 4,
+          "z": 0
+        },
+        {
+          "config": "{\"name\":\"id02a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":52,\"z\":100,\"width\":300,\"height\":38,\"tabOrder\":100}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Engagement Manager Display Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Engagement Manager Display Name\"},\"Name\":\"Portfolio - API Invoicing Review.Engagement Manager Display Name\",\"NativeReferenceName\":\"Engagement Manager\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Engagement Manager'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 38,
+          "width": 300,
+          "x": 20,
+          "y": 52,
+          "z": 100
+        },
+        {
+          "config": "{\"name\":\"id03a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":330,\"y\":52,\"z\":101,\"width\":300,\"height\":38,\"tabOrder\":101}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Engagement Primary Cost Center Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Engagement Primary Cost Center Name\"},\"Name\":\"Portfolio - API Invoicing Review.Engagement Primary Cost Center Name\",\"NativeReferenceName\":\"Cost Center\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Cost Center'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 38,
+          "width": 300,
+          "x": 330,
+          "y": 52,
+          "z": 101
+        },
+        {
+          "config": "{\"name\":\"id04a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":100,\"z\":200,\"width\":1240,\"height\":600,\"tabOrder\":200}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Invoice Review - Invoice Report.Invoice Number\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Project Code\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Project Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Primary Client Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Engagement Primary Cost Center Name\"},{\"queryRef\":\"Portfolio - API Invoicing Review.Invoice Template\"},{\"queryRef\":\"Invoice Review - Invoice Report.Count Email\"},{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Time Card Billing Adjusted Amount)\"},{\"queryRef\":\"Sum(Invoice Review - Invoice Report.Milestone Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"Invoice Review - Invoice Report\",\"Type\":0},{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Invoice Number\"},\"Name\":\"Invoice Review - Invoice Report.Invoice Number\",\"NativeReferenceName\":\"Invoice #\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Code\"},\"Name\":\"Portfolio - API Invoicing Review.Project Code\",\"NativeReferenceName\":\"Project Code\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Name\"},\"Name\":\"Portfolio - API Invoicing Review.Project Name\",\"NativeReferenceName\":\"Project\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Primary Client Name\"},\"Name\":\"Portfolio - API Invoicing Review.Primary Client Name\",\"NativeReferenceName\":\"Client\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Engagement Primary Cost Center Name\"},\"Name\":\"Portfolio - API Invoicing Review.Engagement Primary Cost Center Name\",\"NativeReferenceName\":\"Cost Center\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Invoice Template\"},\"Name\":\"Portfolio - API Invoicing Review.Invoice Template\",\"NativeReferenceName\":\"Template\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Count Email\"},\"Name\":\"Invoice Review - Invoice Report.Count Email\",\"NativeReferenceName\":\"Emails\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Time Card Billing Adjusted Amount\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Time Card Billing Adjusted Amount)\",\"NativeReferenceName\":\"TC Amount\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Milestone Amount\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Invoice Report.Milestone Amount)\",\"NativeReferenceName\":\"Milestone Amt\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}},\"backColor\":{\"solid\":{\"color\":\"#161B22\"}}}}],\"values\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#E6EDF3\"}},\"backColor\":{\"solid\":{\"color\":\"#1B2028\"}}}}],\"grid\":[{\"properties\":{\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridHorizontalColor\":{\"solid\":{\"color\":\"#2D333B\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Invoice Email'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 600,
+          "width": 1240,
+          "x": 20,
+          "y": 100,
+          "z": 200
+        }
+      ],
+      "width": 1280.0
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":\"#0F1419\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Timecard Alerts",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.0,
+      "name": "d3e4f5a6b7c8d9e0f1a2",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"tc01a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":4,\"z\":0,\"width\":400,\"height\":40,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Timecard Alerts\",\"textStyle\":{\"fontFamily\":\"DIN\",\"fontSize\":\"18px\",\"fontWeight\":\"bold\",\"color\":\"#E6EDF3\"}}],\"horizontalTextAlignment\":\"left\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 40,
+          "width": 400,
+          "x": 20,
+          "y": 4,
+          "z": 0
+        },
+        {
+          "config": "{\"name\":\"tc02a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":52,\"z\":100,\"width\":300,\"height\":38,\"tabOrder\":100}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Engagement Manager Display Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Engagement Manager Display Name\"},\"Name\":\"Portfolio - API Invoicing Review.Engagement Manager Display Name\",\"NativeReferenceName\":\"Engagement Manager\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Engagement Manager'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 38,
+          "width": 300,
+          "x": 20,
+          "y": 52,
+          "z": 100
+        },
+        {
+          "config": "{\"name\":\"tc03a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":330,\"y\":52,\"z\":101,\"width\":300,\"height\":38,\"tabOrder\":101}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Invoice Review - Time Cards.Billing Status\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Invoice Review - Time Cards\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Billing Status\"},\"Name\":\"Invoice Review - Time Cards.Billing Status\",\"NativeReferenceName\":\"Billing Status\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Billing Status'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 38,
+          "width": 300,
+          "x": 330,
+          "y": 52,
+          "z": 101
+        },
+        {
+          "config": "{\"name\":\"tc04a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":100,\"z\":200,\"width\":800,\"height\":600,\"tabOrder\":200}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio - API Invoicing Review.Project Name\"},{\"queryRef\":\"Invoice Review - Time Cards.Billing Status\"},{\"queryRef\":\"Invoice Review - Time Cards.Time Contract Terms\"},{\"queryRef\":\"Sum(Invoice Review - Time Cards.Person Hours)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio - API Invoicing Review\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Invoice Review - Time Cards\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Project Name\"},\"Name\":\"Portfolio - API Invoicing Review.Project Name\",\"NativeReferenceName\":\"Project\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Billing Status\"},\"Name\":\"Invoice Review - Time Cards.Billing Status\",\"NativeReferenceName\":\"Status\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Time Contract Terms\"},\"Name\":\"Invoice Review - Time Cards.Time Contract Terms\",\"NativeReferenceName\":\"Contract\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Person Hours\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Time Cards.Person Hours)\",\"NativeReferenceName\":\"Hours\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}},\"backColor\":{\"solid\":{\"color\":\"#161B22\"}}}}],\"values\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":\"#E6EDF3\"}},\"backColor\":{\"solid\":{\"color\":\"#1B2028\"}}}}],\"grid\":[{\"properties\":{\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridHorizontalColor\":{\"solid\":{\"color\":\"#2D333B\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Timecard Details'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 600,
+          "width": 800,
+          "x": 20,
+          "y": 100,
+          "z": 200
+        },
+        {
+          "config": "{\"name\":\"tc05a1b2c3d4e5f6a7b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":830,\"y\":100,\"z\":300,\"width\":430,\"height\":600,\"tabOrder\":300}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Invoice Review - Time Cards.Billing Status\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Invoice Review - Time Cards.Person Hours)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Invoice Review - Time Cards\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Billing Status\"},\"Name\":\"Invoice Review - Time Cards.Billing Status\",\"NativeReferenceName\":\"Billing Status\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Person Hours\"}},\"Function\":0},\"Name\":\"Sum(Invoice Review - Time Cards.Person Hours)\",\"NativeReferenceName\":\"Total Hours\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":\"#2F81F7\"}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#E6EDF3\"}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#1B2028\"}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Hours by Billing Status'\"}}},\"fontColor\":{\"solid\":{\"color\":\"#8B949E\"}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":\"#2D333B\"}}}}]}}}",
+          "filters": "[]",
+          "height": 600,
+          "width": 430,
+          "x": 830,
+          "y": 100,
+          "z": 300
+        }
+      ],
+      "width": 1280.0
+    },
